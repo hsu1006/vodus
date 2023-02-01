@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Vodus Merchant</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initil-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm text-white navbar-dark ">
+    <div class="container-fluid text-white">
+      <p>Vodus Merchant</p>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Market Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vodus Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Learning Centre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up | Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="spacing"></div>
+  <div class="container-fluid text-white" id="bot">
+    <div id="learning">LEARNING CENTER: &nbsp;&nbsp;&nbsp;&nbsp;<i>Everything you need to know about being a successful
+        Online Seller
+      </i></div>
+  </div>
+
+  <div class="d-flex flex-row justify-content-center mt-3">
+    <button class="btns active"><i>All Topic</i></button>
+    <button class="btns"><i>Guides</i></button>
+    <button class="btns"><i>Learning</i></button>
+    <button class="btns"><i>Vodus Updates</i></button>
+    <button class="btns"><i>Payments</i></button>
+    <button class="btns"><i>Industry News</i></button>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="register.jpg" alt="register now">
+        <p><b>How to register as a Vodus Merchant within 10 minutes</b></p>
+        <p>
+          So your read to become a merchant seller? This step-by-step guide gives you everything you need to have your
+          store set up within 10 minutes
+        </p>
+        <a href="">Read More</a>
+      </div>
+      <div class="col-sm-4">
+        <img src="register.jpg" alt="register now">
+        <p><b>When are people most likely to shop online</b></p>
+        <p>
+          A recent study by Vodus Research has shown that over 45% of online shopping happens between the hours of 18.00
+          -
+          22.00 on weekdays
+        </p>
+        <a href="">Read More</a>
+      </div>
+      <div class="col-sm-4">
+        <img src="register.jpg" alt="register now">
+        <p><b>How to register as a Vodus Merchant within 10 minutes</b></p>
+        <p>
+          With so many sales happening throughout the year many merchants are left wondering how and when to adjust the
+          discounts on their products
+        </p>
+        <a href="">Read More</a>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    $("button").click(function () {
+      $("button").removeClass('active');
+      $(this).toggleClass('active');
+    });
+  </script>
+
+</body>
+
+</html>
